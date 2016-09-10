@@ -1,0 +1,65 @@
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 99%;
+      margin: auto;
+  }
+  .hr{
+  	width: 20%;
+  	background-color: black;
+
+  }
+ /*aqui va mi primer paleta*/
+.E7{
+	background-color:#69D2E7;
+	padding: 3%;
+
+
+  }
+  .DB{
+  	background-color: #A7DBDB;
+  	padding: 3%;
+  	
+  }
+  .CC{
+  	background-color: #E0E4CC;
+  	padding: 3%;
+
+  }
+  .F3{
+  	background-color: #F38630;
+  	padding: 3%;
+
+
+  }
+  .FA{
+  	background-color: #FA6900;
+  	padding: 3%;
+  }
+  
+  .E9{
+	background-color:#E94C6F;
+	padding: 3%;
+
+
+  }
+  .CU{
+  	background-color:#542733 ;
+  	padding: 3%;
+  	
+  }
+  .A6{
+  	background-color:#546A62 ;
+  	padding: 3%;
+
+  }
+  .CD{/*aqui va mi segunda paleta*/
+  	background-color:#C6D5CD ;
+  	padding: 3%;
+
+
+  }
+  .FD{
+  	background-color:#FDF200 ;
+  	padding: 3%;
+  }
+  /*aqui va mi tercer paleta*/
