@@ -35,7 +35,7 @@
   	background-color: #FA6900;
   	padding: 3%;
   }
-  
+   /*aqui va mi segunda paleta*/
   .E9{
 	background-color:#E94C6F;
 	padding: 3%;
@@ -52,7 +52,7 @@
   	padding: 3%;
 
   }
-  .CD{/*aqui va mi segunda paleta*/
+  .CD{
   	background-color:#C6D5CD ;
   	padding: 3%;
 
@@ -63,3 +63,83 @@
   	padding: 3%;
   }
   /*aqui va mi tercer paleta*/
+   .DB{
+  background-color:#DB3340;
+  padding: 3%;
+
+
+  }
+  .E8{
+    background-color:#E8B71A ;
+    padding: 3%;
+    
+  }
+  .F7{
+    background-color:#F7EAC8 ;
+    padding: 3%;
+
+  }
+  .A9{
+    background-color:#1FDA9A ;
+    padding: 3%;
+
+
+  }
+  .BE{
+    background-color:#28ABE3 ;
+    padding: 3%;
+  }
+  /*aqui va mi cuarta paleta*/
+  .C7{
+  background-color:#588C73;
+  padding: 3%;
+
+
+  }
+  .E3{
+    background-color:#F2E394 ;
+    padding: 3%;
+    
+  }
+  .F2{
+    background-color:#F2AE72 ;
+    padding: 3%;
+
+  }
+  .D9{
+    background-color:#D96459 ;
+    padding: 3%;
+ 
+
+  }
+  .C8{
+    background-color:#8C4646 ;
+    padding: 3%;
+  }
+   /*aqui va mi quinta paleta*/
+  .F1{
+  background-color:#D0691F;
+  padding: 3%;
+
+
+  }
+  .B9{
+    background-color:#85C4B9 ;
+    padding: 3%;
+    
+  }
+  .BA{
+    background-color:#008BBA ;
+    padding: 3%;
+
+  }
+  .DF{
+    background-color:#DF514C ;
+    padding: 3%;
+
+
+  }
+  .B0{
+    background-color:#DC403B;
+    padding: 3%;
+  }
