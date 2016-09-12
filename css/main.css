@@ -3,15 +3,16 @@
       width: 99%;
       margin: auto;
   }
-  .hr{
-  	width: 20%;
+  hr{
+  	width:10%;
   	background-color: black;
 
   }
  /*aqui va mi primer paleta*/
 .E7{
 	background-color:#69D2E7;
-	padding: 3%;
+  padding: 3%;
+
 
 
   }
@@ -143,9 +144,54 @@
     background-color:#DC403B;
     padding: 3%;
   }
+  .image{
+    width: 60% ;
+    height: 60%;
+
+  }
 .color{
   background-color: #00004d;
 }
 .back-what{
   background-color: #00cc66;
+}
+.back-redes{
+  background-image: url(../img/img-divider-img.jpg);
+  background-size: 100%;
+}
+.brown{
+  background-color: #802b00;
+}
+.caja{
+  background-color: #00004d;
+   width: 30%;
+   padding: 2%;
+   margin-left: 40%; 
+    
+}
+#return{
+  transform: rotate(45deg);
+ 
+}
+.margin{
+  margin-bottom: .5%;
+}
+.margin-bot{
+  margin-bottom: 10%;
+}
+.orange{
+  color:  #ff5c33;
+}
+.tamaño{
+  width:50%; 
+  margin-left: 25%;
+}
+.blue{
+  background-color: #0040ff;
+  opacity: 0.2;
+}
+.white{
+  background-color: white;
+  color: black
+
 }
