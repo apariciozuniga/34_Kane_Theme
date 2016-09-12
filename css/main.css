@@ -284,7 +284,7 @@
     width: 970px;
   }
 }
-@media (min-width: 380px) {
+@media (min-width: 360px) {
   .images{
     width: 100px;
   }
@@ -299,10 +299,7 @@
       display: inline-block;  
    }
  }
- @media screen and (min-width: 700px)and(max-width:100px ) {
-    
-  } 
-  
+   
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
