@@ -1,6 +1,6 @@
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 99%;
+      width: 100%;
       margin: auto;
   }
   hr{
@@ -29,8 +29,6 @@
   .F3{
   	background-color: #F38630;
   	padding: 3%;
-
-
   }
   .FA{
   	background-color: #FA6900;
@@ -40,7 +38,6 @@
   .E9{
 	background-color:#E94C6F;
 	padding: 3%;
-
 
   }
   .CU{
@@ -56,8 +53,6 @@
   .CD{
   	background-color:#C6D5CD ;
   	padding: 3%;
-
-
   }
   .FD{
   	background-color:#FDF200 ;
@@ -67,8 +62,6 @@
    .DB{
   background-color:#DB3340;
   padding: 3%;
-
-
   }
   .E8{
     background-color:#E8B71A ;
@@ -147,7 +140,7 @@
   .image{
     width: 60% ;
     height: 60%;
-
+    margin-left: 10%;
   }
 .color{
   background-color: #00004d;
@@ -157,7 +150,8 @@
 }
 .back-redes{
   background-image: url(../img/img-divider-img.jpg);
-  background-size: 100%;
+  background-position: 10px 30px;
+  padding: 10%;
 }
 .brown{
   background-color: #802b00;
@@ -170,7 +164,7 @@
     
 }
 #return{
-  transform: rotate(45deg);
+  transform: rotate(3deg);
  
 }
 .margin{
@@ -183,15 +177,121 @@
   color:  #ff5c33;
 }
 .tamaño{
-  width:50%; 
+  width:48%; 
   margin-left: 25%;
 }
 .blue{
-  background-color: #0040ff;
-  opacity: 0.2;
+  background-color:blue;
+  opacity: .3 ;
+  color: black;
+  
 }
 .white{
   background-color: white;
   color: black
 
 }
+.borde{
+  border:1px solid #00cc66;
+  padding: 2%;
+  
+}
+.cuadros{
+   background-color: #00cc66;
+   padding: 5%;
+}
+.margin-top{
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+.colour{
+  border: 1px solid #ff5c33;
+  padding-top: 1%;
+}
+.caja1{
+
+  background-color: #802b00;
+   width: 30%;
+   padding: 2%;
+   margin-left: 40%; 
+   transform: rotate(45deg);
+
+}
+.redsocial{
+  font-size: 700%;
+  color: white;
+}
+.text{
+  text-indent: 5%;
+}
+.block{
+  display: inline-block;
+}
+.images{
+  width: 50% ;
+  height:50% ;
+  margin-left: 25%;
+}
+.margin-left{
+  margin-left: .5%;
+}
+.black{
+  background-color: black;
+  padding: 
+}
+.borde-red{
+
+}
+#print{
+  color: orange;
+}
+.right{
+  margin-right: 0%;
+}
+.redsocial {-webkit-animation: anim2 ease-in-out 3s infinite alternate; }
+@-webkit-keyframes anim2
+{
+   from {left: 0px;   -webkit-transform: scale(1.0) rotate(0deg)   }
+   50%  {left: 250px; -webkit-transform: scale(0.8) rotate(10deg)  }
+   to   {left: 500px; -webkit-transform: scale(1.2) rotate(-20deg) }
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+      margin:0 !important;
+      padding:0 !important;
+  }
+
+  .row {
+      margin:0 !important;
+      padding:0 !important;
+  } 
+}
+
+@media (max-width: 700px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+@media (min-width: 490px) {
+  .img  {
+    width: 490px;
+  }
+}
+@media (min-width: 992px) {
+  . {
+    width: 970px;
+  }
+}
+@media (min-width: 380px) {
+  .{
+    width: 380px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1350px;
+  }
+}
+

@@ -7,13 +7,13 @@
         <meta name="description" content="ThreeSixty Bootstrap Template">
         <meta name="author" content="Fabian Bentz Webdesign">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,400italic,700' rel='stylesheet' type='text/css'>
-        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/bootstrap.css" rel="stylesheet">
         <link href="./css/main.css" rel="stylesheet">
         <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/utilities.css">
     </head>
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar back-what">
             <div class="container-fluid">
                 <div class="navbar-header">
                    <img src="img/logo.png" alt="logo"> <!--aqui va mi logo en el navbar-->
@@ -28,132 +28,115 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </nav>
-        <div class="container-fluid">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel"> <!--aqui comienza mi carusel -->  
-                <div class="carousel-inner" role="listbox">
+            <div class="container-fluid">
+                <header> <!--aqui comienza mi carusel -->      
                     <div class="item active">
-                        <img src="img/carousel-bg.jpg" alt="carusel">
+                        <img src="img/carousel-bg.jpg" class="img-responsive" alt="carusel">
                         <div class="carousel-caption">
                             <h1>BEAUTIFUL COLOR PALETTES FOR YOUR NEXT WEB PROJECT</h1>
-                            <p>Chossing the right color scheme is essential to your website´s success. Your  layout and other design choices-including font-should be developed in concert with you color scheme to ensure readability, cohesiveness and beauty in the final product.</p>
+                            <p class="text">Chossing the right color scheme is essential to your website´s success. Your  layout and other design choices-including font-should be developed in concert with you color scheme to ensure readability, cohesiveness and beauty in the final product.</p>
                         </div>
-                    </div>
-                    <div class="item">
-                        <img src="img/agency-img.jpg" alt="">
-                    </div> 
-                </div> 
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                </a>
-            </div><!--aqui termina el codigo de mi carrusel-->
+                    </div><!--aqui termina el codigo de mi carrusel--> 
+                </nav>
+            </header>
             <section>
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2 class="text-center">PICK YOUR COLOR PALETTE</h2>
-                        <hr>
-                        <div class="row margin">
-                            <div class="col-xs-2 col-xs-offset-1 E7"><!--primer paleta de colores-->
-                                #69D2E7
-                            </div>
-                            <div class="col-xs-2 DB">
-                                #A7DBDB
-                            </div>
-                            <div class="col-xs-2 CC">
-                                #E0E4CC
-                            </div>
-                            <div class="col-xs-2 F3">
-                                #F38630
-                            </div> 
-                            <div class="col-xs-2 FA">
-                                #FA6900
-                            </div>
-                        </div>
-                        <div class="row margin">
-                            <div class="col-xs-2  col-xs-offset-1 E9"><!--segunda paleta de colores-->
-                                #E94C6F
-                            </div>
-                            <div class="col-xs-2 CU">
-                                #542733
-                            </div>
-                            <div class="col-xs-2 A6">
-                                #546A62
-                            </div>
-                            <div class="col-xs-2 CD">
-                                #C6D5CD
-                            </div> 
-                            <div class="col-xs-2 FD">
-                                #FDF200
-                            </div>
-                        </div>
-                         <div class="row margin">
-                            <div class="col-xs-2 col-xs-offset-1 DB"><!--tercer paleta de colores-->
-                                #DB3340
-                            </div>
-                            <div class="col-xs-2 E8">
-                                #E8B71A
-                            </div>
-                            <div class="col-xs-2 F7">
-                                #F7EAC8
-                            </div>
-                            <div class="col-xs-2 A9">
-                                #1FDA9A
-                            </div> 
-                            <div class="col-xs-2 BE">
-                                #28ABE3
-                            </div>
-                        </div>
-                         <div class="row margin">
-                            <div class="col-xs-2 col-xs-offset-1 C7 "><!--cuarta paleta de colores-->
-                                #588C73
-                            </div>
-                            <div class="col-xs-2 E3">
-                                #F2E394
-                            </div>
-                            <div class="col-xs-2 F2">
-                                #F2AE72
-                            </div>
-                            <div class="col-xs-2 D9">
-                                #D96459
-                            </div> 
-                            <div class="col-xs-2 C8">
-                                #8C4646
-                            </div>
-                        </div>
-                         <div class="row margin">
-                            <div class="col-xs-2 col-xs-offset-1 F1"><!--quinta paleta de colores-->
-                                #D0691F
-                            </div>
-                            <div class="col-xs-2  B9">
-                                #85C4B9
-                            </div>
-                            <div class="col-xs-2 BA">
-                                #008BBA
-                            </div>
-                            <div class="col-xs-2 DF">
-                                #DF514C
-                            </div> 
-                            <div class="col-xs-2 B0 ">
-                                #DC403B
-                            </div>
-                        </div>
-
+                <div class="row margin">
+                    <h2 class="text-center">PICK YOUR COLOR PALETTE</h2>
+                    <hr>
+                    <div class="col-xs-2 col-lg-2 col-xs-offset-1 img-responsive img-rounded E7"><!--primer paleta de colores-->
+                        #69D2E7
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded DB">
+                        #A7DBDB
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded CC">
+                        #E0E4CC
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded F3">
+                        #F38630
+                    </div> 
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded FA">
+                        #FA6900
+                    </div>
+                </div>
+                <div class="row margin">
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded  col-xs-offset-1 E9"><!--segunda paleta de colores-->
+                        #E94C6F
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded CU">
+                        #542733
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded A6">
+                        #546A62
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded CD">
+                        #C6D5CD
+                    </div> 
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded FD">
+                        #FDF200
+                    </div>
+                </div>
+                 <div class="row margin">
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded col-xs-offset-1 DB"><!--tercer paleta de colores-->
+                        #DB3340
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded E8">
+                        #E8B71A
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded F7">
+                        #F7EAC8
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded A9">
+                        #1FDA9A
+                    </div> 
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded BE">
+                        #28ABE3
+                    </div>
+                </div>
+                 <div class="row margin">
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded col-xs-offset-1 C7 "><!--cuarta paleta de colores-->
+                        #588C73
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded E3">
+                        #F2E394
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded F2">
+                        #F2AE72
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded D9">
+                        #D96459
+                    </div> 
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded C8">
+                        #8C4646
+                    </div>
+                </div>
+                <div class="row margin">
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded col-xs-offset-1 F1"><!--quinta paleta de colores-->
+                        #D0691F
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded  B9">
+                        #85C4B9
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded BA">
+                        #008BBA
+                    </div>
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded DF">
+                        #DF514C
+                    </div> 
+                    <div class="col-xs-2 col-lg-2img-responsive img-rounded B0 ">
+                        #DC403B
                     </div>
                 </div>
             </section>
             <section><!--seccion de about us-->
                 <div class="row color  text-white">
-                    <h2 class="">ABOUT US</h2>
+                    <h2 class="text-center">ABOUT US</h2>
                     <hr>
                     <div class="col-xs-6 col-lg-6">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, aliquam magnam, dolore error assumenda ab adipisci nemo distinctio ipsum itaque. Deleniti praesentium atque at dolor, minus sit quis, qui officia!</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In distinctio sunt deserunt esse similique quas minima nostrum quaerat quibusdam. Sunt illo, delectus pariatur, aliquid corrupti id similique et ratione earum.</p>
-                        <!--aqui van mis  5 progress bar-->
-                        <div class="progress">
-                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="95%" aria-valuemin="0" aria-valuemax="100" style="width:95%" >
+                        <div class="progress"> <!--aqui van mis  5 progress bar-->
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="95%" aria-valuemin="0" aria-valuemax="100" style="width:95%">
                             </div>
                         </div>
                         <h4>HTML</h4>
@@ -163,7 +146,7 @@
                         </div>
                         <h4>CSS</h4>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valunow="57%" aria-valuemin="0" aria-valuemax="100" style="width:57%" >  
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valunow="57%" aria-valuemin="0" aria-valuemax="100" style="width:57%">  
                             </div>
                         </div>
                         <h4>JAVASCRIPT</h4>
@@ -174,154 +157,114 @@
                         </div>
                         <h4>PHP</h4>
                         <div class="progress">
-                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progresbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width:80%;"> 
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progresbar" aria-valuenow="80%" aria-valuemin="0" aria-valuemax="100" style="width:80%"> 
                             </div>
                         </div>
                         <h4>PHOTOSHOP/ILLUSTRATOR</h4>
                     </div>
                     <div class="col-xs-6 col-lg-6 text-center"><!--imagenes de wedesign-->
-                     <img class="img-responsive img-rounded image" src="img/agency-img3.jpg" alt="">    
+                        <img class="img-responsive img-rounded image" src="img/agency-img3.jpg" alt=""> 
                     </div>
                 </div>   
             </section>
             <section class="back-what">
                 <div class="row text-center margin-bot">
-                    <h2>WHAT WE DO</h2> 
+                    <h1 class="text-white">WHAT WE DO</h1> 
                     <hr>
-                    <p class="text-center">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <div class="col-xs-4 col-lg-4">
                         <div class="caja">  
                             <img class="img-responsive" src="img/icons/webdesign.png" alt="webdesign">
                         </div>
-                       <h3>Web Design</h3>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolore et veniam tenetur consectetur, qui ipsa? Nesciunt alias est enim minus, reiciendis qui culpa provident numquam ullam optio fugit nisi.</p>
+                        <h3 class="text-white">Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae dolore et veniam tenetur consectetur, qui ipsa? Nesciunt alias est enim minus, reiciendis qui culpa provident numquam ullam optio fugit nisi.</p>
                     </div>
                     <div class="col-xs-4 col-lg-4">
                         <div class="caja">
                              <img class="img-responsive" src="img/icons/graphicdesign.png" alt="graphicdesign"> 
                         </div>
-                       <h3>Graphic Design</h3>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloribus harum laborum, eligendi id numquam culpa dolor, sunt fuga beatae tempora, quisquam temporibus voluptatibus sapiente totam. Neque aperiam, deleniti quas.</p>
+                        <h3 class="text-white">Graphic Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate doloribus harum laborum, eligendi id numquam culpa dolor, sunt fuga beatae tempora, quisquam temporibus voluptatibus sapiente totam. Neque aperiam, deleniti quas.</p>
                     </div>
                     <div class="col-xs-4 col-lg-4 blue">    
-                        <div class="caja">
+                        <div class="caja1">
                             <img class="img-responsive" id="return" src="img/icons/mobile.png" alt="mobile"> 
                         </div>     
-                       <h3>Mobile App</h3>
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cum neque nemo nostrum non error eum sed maiores tempore itaque quaerat, nisi aliquid inventore ducimus ipsa saepe sunt enim voluptate!</p>
+                        <h3 class="text-white">Mobile App</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cum neque nemo nostrum non error eum sed maiores tempore itaque quaerat, nisi aliquid inventore ducimus ipsa saepe sunt enim voluptate!</p>
                     </div>
-                    <button type="button" class="btn"> HIRE US NOW</button>
+                    <button type="button" class="btn btn-primary margin-top"> HIRE US NOW</button>
                 </div>
                 <div class="row text-center">
-                    <h2>OUR AWESOME TEAM</h2>
+                    <h1 class="text-white">OUR AWESOME TEAM</h1>
                     <hr>
                     <h6>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</h6>
                     <div class="col-xs-4 col-lg-3">
-                        <img class="img-responsive img-rounded" src="img/team/1.jpg" alt="">
-                        <h4>Jane Doe</h4>
+                        <img class="img-responsive img-rounded images" src="img/team/1.jpg" alt="">
+                        <h4 class="text-white">Jane Doe</h4>
                         <small>CEO/Founder</small>
-                        <p>Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <div class="row">
-                            <div class="col-xs-2 col-xs-offset-1 ">
-                                <span class=" fa fa-facebook"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-twitter"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-linkedin-square"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-pinterest"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-instagram"></span>
-                            </div> 
-                        </div>
+                        <p class="text-gray">Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <ul>
+                            <li class="block"><span class="fa fa-facebook"></span></li>
+                            <li class="block"><span class="fa fa-twitter"></span></li>
+                            <li class="block"><span class="fa fa-linkedin-square"></span></li>
+                            <li class="block"><span class="fa fa-pinterest"></span></li>
+                            <li class="block"><span class="fa fa-instagram"></span></li>
+                        </ul>
                     </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <img class="img-responsive img-rounded" src="img/team/1.jpg" alt="">
-                        <h4>Jane Doe</h4>
+                       <div class="col-xs-4 col-lg-3">
+                        <img class="img-responsive img-rounded images" src="img/team/1.jpg" alt="">
+                        <h4 class="text-white">Jane Doe</h4>
                         <small>CEO/Founder</small>
-                        <p>Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <div class="row">
-                            <div class="col-xs-2 col-xs-offset-1">
-                                <span class=" fa fa-facebook"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-twitter"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-linkedin-square"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-pinterest"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-instagram"></span>
-                            </div> 
-                        </div>
+                        <p class="text-gray">Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <ul>
+                            <li class="block"><span class="fa fa-facebook"></span></li>
+                            <li class="block"><span class="fa fa-twitter"></span></li>
+                            <li class="block"><span class="fa fa-linkedin-square"></span></li>
+                            <li class="block"><span class="fa fa-pinterest"></span></li>
+                            <li class="block"><span class="fa fa-instagram"></span></li>
+                        </ul>
                     </div>
-                    <div class="col-xs-3 col-lg-3">
-                        <img class="img-responsive img-rounded" src="img/team/1.jpg" alt="">
-                        <h4>Jane Doe</h4>
+                       <div class="col-xs-4 col-lg-3">
+                        <img class="img-responsive img-rounded images" src="img/team/1.jpg" alt="">
+                        <h4 class="text-white">Jane Doe</h4>
                         <small>CEO/Founder</small>
-                        <p>Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <div class="row">
-                            <div class="col-xs-2 col-xs-offset-1">
-                                <span class=" fa fa-facebook"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-twitter"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-linkedin-square"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-pinterest"></span>
-                            </div>
-                            <div class="col-xs-2">
-                                <span class="fa fa-instagram"></span>
-                            </div> 
-                        </div>
+                        <p class="text-gray">Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <ul>
+                            <li class="block"><span class="fa fa-facebook"></span></li>
+                            <li class="block"><span class="fa fa-twitter"></span></li>
+                            <li class="block"><span class="fa fa-linkedin-square"></span></li>
+                            <li class="block"><span class="fa fa-pinterest"></span></li>
+                            <li class="block"><span class="fa fa-instagram"></span></li>
+                        </ul>
                     </div>
-                    <div class="col-xs-3 col-lg3">
-                        <img class="img-responsive img-rounded" src="img/team/1.jpg" alt="">
-                        <h4>Jane Doe</h4>
+                    <div class="col-xs-4 col-lg-3">
+                        <img class="img-responsive img-rounded images" src="img/team/1.jpg" alt="">
+                        <h4 class="text-white">Jane Doe</h4>
                         <small>CEO/Founder</small>
-                        <p>Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                        <div class="row">
-                            <div class="col-xs-2 col-lg-2 col-xs-offset-1 ">
-                                <span class=" fa fa-facebook"></span>
-                            </div>
-                            <div class="col-xs-2 col-lg-2">
-                                <span class="fa fa-twitter"></span>
-                            </div>
-                            <div class="col-xs-2 col-lg-2">
-                                <span class="fa fa-linkedin-square"></span>
-                            </div>
-                            <div class="col-xs-2 col-lg-2">
-                                <span class="fa fa-pinterest"></span>
-                            </div>
-                            <div class="col-xs-2 col-lg-2">
-                                <span class="fa fa-instagram"></span>
-                            </div> 
-                        </div>
-                    </div>           
+                        <p class="text-gray">Donec sed odio dui. Etiam porta sem malesudad magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                        <ul>
+                            <li class="block"><span class="fa fa-facebook"></span></li>
+                            <li class="block"><span class="fa fa-twitter"></span></li>
+                            <li class="block"><span class="fa fa-linkedin-square"></span></li>
+                            <li class="block"><span class="fa fa-pinterest"></span></li>
+                            <li class="block"><span class="fa fa-instagram"></span></li>
+                        </ul>
+                    </div>       
                 </div>
             </section>
-            <section class="color text-center"><!--aqui va el best price gurantee-->
-                <div class="row">
+            <section class="color text-center text-white"><!--aqui va el best price gurantee-->
+                <div class="row   ">
                     <h2>BEST PRICE GURANTEED</h2>
                     <hr>
-                     <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
+                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
                     <div class="col-xs-3 borde">
                         <div class="brown"><!--primer cuadro Starter-->
-                            STARTER
+                            <h2>STARTER</h2>
                         </div>
-                        <div class="back-what">
+                        <div class="cuadros">
                             $10/MO
-                            <small>1 month FREE trial</small>  
+                            <p><small>1 month FREE trial</small> </p> 
                         </div>
                         <div class="brown">2 GB Disk Space</div>
                         <div class="white">10 Gb Bandwith</div>
@@ -330,16 +273,16 @@
                         <div class="brown">1 Domains</div>
                         <div class="white">24h Support</div>
                         <div>
-                            <button>Sign Up</button>
+                            <button type="button" class="btn btn-primary margin-top">Sign Up</button>
                         </div>
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 borde">
                         <div><!--segundo cuadro  Basic-->
-                            BASIC
+                           <h2>BASIC</h2>
                         </div>
-                        <div class="back-what">
+                        <div class="cuadros">
                             $15/MO
-                            <small>1 month FREE trial</small>  
+                            <p><small>1 month FREE trial</small> </p> 
                         </div>
                         <div>5 GB Disk Space</div>
                         <div class="white">20 GB Bandwith</div>
@@ -348,16 +291,16 @@
                         <div>5 Domains</div>
                         <div class="white">24h Support</div>
                         <div>
-                            <button>Sign Up</button>
+                            <button type="button" class="btn btn-primary margin-top">Sign Up</button>
                         </div>
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 colour">
                         <div>
-                            FEATURE
+                            <h2>FEATURE</h2>
                         </div>
-                        <div class="back-what">
+                        <div class="cuadros">
                             $25/MO
-                            <small>1 month FREE trial</small>  
+                            <p><small>1 month FREE trial</small> </p> 
                         </div>
                         <div>10 GB Disk Space</div>
                         <div class="white">30 GB Bandwith</div>
@@ -366,16 +309,16 @@
                         <div>10 Domains</div>
                         <div class="white">24h Support</div>
                         <div>
-                            <button>Sign Up</button>
+                            <button type="button" class="btn btn-primary margin-top">Sign Up</button>
                         </div>
                     </div>
-                    <div class="col-xs-3">
+                    <div class="col-xs-3 borde">
                         <div>
-                            PROFESSIONAL
+                            <h2>PROFESSIONAL</h2>
                         </div>
-                        <div class="back-what">
+                        <div class="cuadros">
                             $35/MO
-                            <small>1 month FREE trial</small>  
+                            <p><small>1 month FREE trial</small> </p> 
                         </div>
                         <div>15 GB Disk Space</div>
                         <div class="white">40 Gb Bandwith</div>
@@ -384,25 +327,25 @@
                         <div>15 Domains</div>
                         <div class="white">24h Support</div>
                         <div>
-                            <button>Sign Up</button>
+                            <button type="button" class="btn btn-primary margin-top">Sign Up</button>
                         </div>
                     </div>
-                </div>
-                <div class="row ">
+                </div> 
+                <div class="row margin-bot text-white">
                     <h2>WHAT OUR CLIENTS SAY</h2>
                     <hr class="hr">
                     <h6>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</h6>
                     <div class="col-xs-12">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, numquam, ipsam. Totam, consectetur nobis exercitationem sed cupiditate rerum at incidunt qui distinctio nihil odio est animi quod magni beatae corporis!</p>
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non libero magna. Sed et quam lacus. Fusce codimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut vlutpat. Integer sed arcu mass. Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
                         <cite class="orange">-Automoty Company</cite>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, numquam, ipsam. Totam, consectetur nobis exercitationem sed cupiditate rerum at incidunt qui distinctio nihil odio est animi quod magni beatae corporis!</p>
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non libero magna. Sed et quam lacus. Fusce codimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut vlutpat. Integer sed arcu mass. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <cite class="orange">-Xpedius aerospace</cite>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, numquam, ipsam. Totam, consectetur nobis exercitationem sed cupiditate rerum at incidunt qui distinctio nihil odio est animi quod magni beatae corporis!</p>
+                        <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut non libero magna. Sed et quam lacus. Fusce codimentum eleifend enim a feugiat. Pellentesque viverra vehicula sem ut vlutpat. Integer sed arcu mass. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                         <cite class="orange">-CKPit Solution</cite>   
                     </div>
                 </div>
-                <div >
-                    <h2class="row text-center">GET IN TOUCH</h2>
+                <div class="row">
+                    <h2 class="text-center">GET IN TOUCH</h2>
                     <hr>
                     <div class="col-xs-12 col-lg-12 ">
                         <form>
@@ -416,36 +359,39 @@
                                  <input  type="text" class="form-control tamaño" id="phone" placeholder="Phone*">
                             </div>
                             <div class="form-group">
-                               <textarea name="Message" id="" placeholder="Message*" cols="90" rows="10"></textarea>
+                               <textarea name="Message" id="" placeholder="Message*" cols="90" rows="8"></textarea>
                             </div>                    
-                            <button type="button" class="btn">Submit</button>
+                            <button type="button" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
-                    *Requiered
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p class="margin-left">*Requiered</p>
+                        </div>
+                    </div>
                 </div>
             </section>
            <section><!--seccion de redes sociales con un background-->
-                <div class="row back-redes">
-                    <div class="col-xs-2 col-xs-offset-1">
-                        <span class="glyphicon glyphicon-facebook"></span>
+                <div class="row back-redes text-center">
+                    <div class="col-xs-12" >
+                        <ul class="margin-left">
+                            <li class="block"><span class="fa fa-facebook redsocial"></span></li>
+                            <li class="block"><span class="fa fa-twitter redsocial"></span></li>
+                            <li class="block"><span class="fa fa-linkedin-square redsocial"></span></li>
+                            <li class="block"><span class="fa fa-pinterest redsocial"></span></li>
+                            <li class="block"><span class="fa fa-google-plus redsocial"></span></li>
+                            <li class="block"><span class="fa fa-tumblr redsocial"></span></li>
+                            <li class="block"><span class="fa fa-instagram redsocial"></span></li>
+                         </ul> 
+            
+                        
                     </div>
-                    <div class="col-xs-2">
-                        <span class="glyphicon glyphicon-twitter"></span>
-                    </div>
-                    <div class="col-xs-2">
-                        <span class="glyphicon glyphicon-"></span>
-                    </div>
-                    <div class="col-xs-2">
-                        <span class="glyphicon glyphicon-"></span>
-                    </div>
-                    <div class="col-xs-2">
-                        <span class="glyphicon glyphicon-"></span>
-                    </div>
+                    
                 </div>
             </section>
             <footer class="back-what">
-                <div class="row">
-                    <div class="col-xs-4 col-lg-4">
+                <div class="row text-center">
+                    <div class="col-xs-4 col-lg-4 text-white">
                         <h3>Visit Us</h3>
                         <hr>
                         <ul class="fa fa-ul">
@@ -454,7 +400,7 @@
                             <li><span class="fa fa-flag"></span> Germany</li>
                         </ul> 
                     </div>
-                    <div class="col-xs-4 col-lg-4">
+                    <div class="col-xs-4 col-lg-4 text-white ">
                         <h3>Write US</h3>
                         <hr>
                         <ul class="fa fa-ul">
@@ -463,20 +409,23 @@
                             <li> <span class="glyphicon glyphicon-print"></span> +49 621 123 321 124</li>
                         </ul>
                     </div>
-                    <div class="col-xs-4 col-lg-4">
+                    <div class="col-xs-4 col-lg-4 text-white">
                         <h3>Newsletter</h3>
                         <hr>
-                        <span class="glyphicon glyphicon-print"></span><input type="text" placeholder="Enter email">
-                        <button type="button" class="btn">Subscribe Now</button>
+                         <span class="glyphicon glyphicon-print black" id="print"></span><input type="text" placeholder="Enter email"><br>
+                        <button type="button" class="btn btn-primary">Subscribe Now</button>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-6">
                         <p>&#169 2013 ThreeSixty Website Twmplate <span class="text-white">Privacy Terms</span></p>
-                        <p>Back to top</p>
                     </div>
+                    <div class="col-xs-6">
+                        <p class="right">Back to top</p>
+                    </div>   
                 </div>
-            </footer>    
+            </footer> 
+        
         </div>
         <!-- <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
         <script type="text/javascript" src="./js/bootstrap.min.js"></script> -->
